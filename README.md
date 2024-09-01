@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokemon Search App
 
-## Getting Started
+## Author
+**Ivan Bodnarash**
 
-First, run the development server:
+## Project Overview
+This project is a simple Pokemon search app built using Next.js.
+The app allows users to search for Pokemon, filter by type, and sort the list of Pokemon. Additionally it includes a "not found" page for invalid searches and loading states for data fetching.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Setup Instructions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prerequisites
+- Ensure you have Node.js installed. You can download it from [Node.js official website](https://nodejs.org/).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/
 
-## Learn More
+2. Navigate to the project directory:
+    ```bash
+    cd ivan-bodnarash-bling-web-test
 
-To learn more about Next.js, take a look at the following resources:
+3. Install the dependencies:
+    ```bash
+    npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Run the development server
+    ```bash
+    npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Open your browser and navigate to:
+    ```bash
+    http://localhost:3000
 
-## Deploy on Vercel
+## Node/Next.js Versions Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Node.js version: v20.15.0
+- Next.js version: v14.2.7
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Estimated Time Spent
+
+- Time spent on the test: Approx. 5 hours
+
+## Additional Information
+
+- This project utilizes Tailwind CSS for styling.
+- The application handles responsiveness and is optimized for both desktop and mobile devices.
+- All components are divided into separate files, folowing best practices for maintainability and scalability.
