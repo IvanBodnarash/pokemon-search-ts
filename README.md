@@ -4,7 +4,7 @@
 **Ivan Bodnarash**
 
 ## Project Overview
-This project is a simple Pokemon search app built using Next.js.
+This project is a simple Pokemon search app built using Next.js and Typescript.
 The app allows users to search for Pokemon, filter by type, and sort the list of Pokemon. Additionally it includes a "not found" page for invalid searches and loading states for data fetching.
 
 ## Setup Instructions
@@ -16,7 +16,7 @@ The app allows users to search for Pokemon, filter by type, and sort the list of
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/
+    git clone https://github.com/IvanBodnarash/bling-web-test.git
 
 2. Navigate to the project directory:
     ```bash
