@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { GetServerSideProps } from "next";
 import { fetchPokemonDetails } from "../../utils/api";
 
@@ -63,15 +64,17 @@ export default function PokemonDetailsPage({
       <div className="flex flex-col items-center justify-center text-slate-200 p-5 bg-indigo-900 rounded-lg shadow-xl">
         <h1 className="text-3xl font-bold mb-4">{pokemon.name}</h1>
         <div className="flex flex-wrap justify-center bg-indigo-800 rounded-lg">
-          <img
+          <Image
             src={pokemon.sprites.front_default}
             alt={`${pokemon.name} default`}
             width={200}
+            height={200}
           />
-          <img
+          <Image
             src={pokemon.sprites.front_shiny}
             alt={`${pokemon.name} shiny`}
             width={200}
+            height={200}
           />
         </div>
         <div className="w-full text-lg text-center">

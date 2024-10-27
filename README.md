@@ -1,7 +1,7 @@
 # Pokemon Search App
 
 <p align="center">
-  <img src="./public/images/pokemon-search-ts-screenshot.png" alt="Project Screenshot" width="500"/>
+  <img src="./public/images/pokemon-search-ts-screenshot.png" alt="Project Screenshot" width="600"/>
 </p>
 
 ## Project Overview

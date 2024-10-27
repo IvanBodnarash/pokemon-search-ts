@@ -10,7 +10,7 @@ export default function PokemonApp({ Component, pageProps }: AppProps) {
     if (pageProps.error && pageProps.error.statusCode === 404) {
       router.replace("/error/404");
     }
-  }, [pageProps.error]);
+  }, [pageProps.error, router]);
 
   return <Component {...pageProps} />;
 }
